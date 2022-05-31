@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+}
+
+.olho-sapinho {
+}
+
+.face-sapinho {
+  position: relative;
+}
+.face-sapinho::before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transform: rotate(90deg);
+  clip-path: ellipse(20% 30%);
+  border-radius: 100%;
+  border: #159f01 solid 2px;
+  background: #159f01;
+}
