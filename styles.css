@@ -12,8 +12,34 @@ body {
 
 img {
 }
+.olhos-sapinho1 {
+  position: relative;
+}
+.olhos-sapinho1::before {
+  content: '';
+  position: absolute;
+  background: white;
+  top: 45px;
+  left: 64px;
+  border: #159f01 solid 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
 
-.olho-sapinho {
+.olhos-sapinho2 {
+  position: relative;
+}
+.olhos-sapinho2::before {
+  content: '';
+  position: absolute;
+  background: white;
+  top: 45px;
+  left: 100px;
+  border: #159f01 solid 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
 }
 
 .face-sapinho {
@@ -29,4 +55,14 @@ img {
   border-radius: 100%;
   border: #159f01 solid 2px;
   background: #159f01;
+  z-index: -1;
+}
+.face-sapinho::after {
+  content: '';
+  position: absolute;
+  width: 54px;
+  height: 3px;
+  top: 110px;
+  left: 77px;
+  background-color: #010101;
 }
