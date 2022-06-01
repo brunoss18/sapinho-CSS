@@ -1,9 +1,9 @@
 <h1 align="center">
- Sapinho 🧠
+ Sapinho 🐸
 
 </h1>
 <h3 align="center">
- Sapinho feito com CSS puro para praticar e evoluir 🌌
+ Sapinho feito com CSS puro para praticar e evoluir 🐸
   </h3>
 
 <p align="center">
