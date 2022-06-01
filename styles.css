@@ -26,6 +26,30 @@ img {
   height: 30px;
   border-radius: 100%;
 }
+.pupila1::before {
+  content: '';
+  position: absolute;
+  background: black;
+  top: 58px;
+  left: 77px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.pupila1 {
+  position: relative;
+}
+.pupila1::after {
+  content: '';
+  position: absolute;
+
+  background: white;
+  top: 59px;
+  left: 86px;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+}
 
 .olhos-sapinho2 {
   position: relative;
@@ -41,7 +65,31 @@ img {
   height: 30px;
   border-radius: 100%;
 }
+.pupila2::before {
+  content: '';
+  position: absolute;
+  background: black;
+  top: 58px;
+  left: 113px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
 
+.pupila2 {
+  position: relative;
+}
+.pupila2::after {
+  content: '';
+  position: absolute;
+
+  background: white;
+  top: 59px;
+  left: 122px;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+}
 .face-sapinho {
   position: relative;
 }
@@ -59,10 +107,25 @@ img {
 }
 .face-sapinho::after {
   content: '';
-  position: absolute;
+  /* position: absolute;
   width: 54px;
   height: 3px;
   top: 110px;
   left: 77px;
-  background-color: #010101;
+  background-color: #010101; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(179deg);
+  height: 20px;
+  width: 54px;
+  top: 102px;
+  left: 74px;
+  border-radius: 150px 150px 0 0;
+
+  background-color: white;
+
+  /* -webkit-transform: translateX(-1px) translateY(15px) rotate(-8deg);
+  transform: translateX(-1px) translateY(15px) rotate(-8deg); */
 }
