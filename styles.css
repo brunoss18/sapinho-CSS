@@ -1,14 +1,21 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
 body {
+  background: #b6eed7;
 }
 main {
-  margin: 0 auto;
 }
-img {
+.sapinho {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 200px;
+  height: 600px;
 }
 .olhos-sapinho1 {
   position: relative;
