@@ -4,11 +4,10 @@
 }
 
 body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
-
+main {
+  margin: 0 auto;
+}
 img {
 }
 .olhos-sapinho1 {
@@ -216,4 +215,87 @@ img {
   left: 66px;
   border-radius: 50%;
   background: #52ff1a;
+}
+.perninhas-frente {
+  position: relative;
+}
+.perninhas-frente::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 100px;
+
+  border-radius: 40%;
+  top: 140px;
+  left: 66px;
+  background: #159f01;
+}
+.perninhas-frente::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 100px;
+
+  border-radius: 40%;
+  top: 140px;
+  left: 121px;
+  background: #159f01;
+}
+.perninhas-tras {
+  position: relative;
+}
+.perninhas-tras::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 100px;
+  transform: rotate(159deg);
+  border-radius: 40%;
+  top: 117px;
+  left: 40px;
+  background: #0b6100;
+  z-index: -2;
+}
+.perninhas-tras::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 100px;
+  transform: rotate(205deg);
+  border-radius: 40%;
+  top: 118px;
+  left: 137px;
+  background: #0b6100;
+  z-index: -2;
+}
+.dedos-esq {
+  position: relative;
+}
+.dedos-esq {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 35px;
+  transform: rotate(205deg);
+  border-radius: 40%;
+  top: 201px;
+  left: 61px;
+  background: #0b6100;
+  z-index: -2;
+}
+
+.dedos-dir {
+  position: relative;
+}
+.dedos-dir {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 35px;
+  transform: rotate(160deg);
+  border-radius: 40%;
+  top: 201px;
+  left: 132px;
+  background: #0b6100;
+  z-index: -2;
 }
