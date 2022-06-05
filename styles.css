@@ -106,12 +106,7 @@ img {
 }
 .face-sapinho::after {
   content: '';
-  /* position: absolute;
-  width: 54px;
-  height: 3px;
-  top: 110px;
-  left: 77px;
-  background-color: #010101; */
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,4 +192,28 @@ img {
   left: 133px;
   border-radius: 100%;
   background: #0b6100;
+}
+.barriga {
+  position: relative;
+}
+
+.barriga::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 127px;
+  left: 50px;
+  border-radius: 50%;
+  background: #159f01;
+}
+.barriga::after {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 151px;
+  left: 66px;
+  border-radius: 50%;
+  background: #52ff1a;
 }
