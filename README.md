@@ -34,6 +34,6 @@ Nesse projeto eu criei um sapinho utilizando HTML, CSS.
 Trabalhei com efeitos no CSS para praticar e evoluir.
 
 ## 🔖 Layout
-  em breve
+  acesse:https://sapinho.netlify.app/
 
 Feito com ♥ by Bruno Soares 👋🏽
